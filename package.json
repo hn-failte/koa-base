@@ -1,0 +1,45 @@
+{
+  "name": "koa-base",
+  "version": "1.0.0",
+  "description": "KoaBase",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon ./app",
+    "start": "nodemon ./app",
+    "serve": "node ./app",
+    "lint": "eslint ./ --fix"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^10.1.1",
+    "koa-static": "^5.0.0",
+    "koa-views": "^8.0.0",
+    "log4js": "^6.3.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.6.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-standard": "^5.0.0",
+    "nodemon": "^2.0.15"
+  },
+  "keywords": [
+    "koa",
+    "template"
+  ],
+  "author": "hn-failte <failteku@gmail.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hn-failte/koa-base.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hn-failte/koa-base/issues"
+  },
+  "homepage": "https://github.com/hn-failte/koa-base#readme"
+}

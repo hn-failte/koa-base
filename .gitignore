@@ -1,0 +1,12 @@
+.idea
+.vscode
+node_modules
+
+npm-debug.log*
+yarn-error.log
+
+/coverage
+.DS_Store
+Thumbs.db
+
+/logs
